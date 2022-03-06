@@ -1,0 +1,38 @@
+body{
+    background-image: none;
+    background-color: rgb(234, 237, 237);
+}
+
+.area-slide{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.area-slide img{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.destaques{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 0 15px;
+    background-image: linear-gradient(to top, white 15%, transparent 85%);
+    margin-top: -300px;
+    border: 1px solid red;
+    height: 300px;
+    position: absolute;
+    bottom: 300;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+
+.destaques div{
+    background-color: white;
+    height: 100%;
+}
