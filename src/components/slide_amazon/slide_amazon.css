@@ -3,16 +3,53 @@ body{
     background-color: rgb(234, 237, 237);
 }
 
+.slide-amazon{
+    overflow: hidden;
+}
+
 .area-slide{
     display: flex;
     flex-wrap: nowrap;
     position: relative;
-    overflow: hidden;
+    transition: all ease .4s;
+    width: 100%;
 }
 
 .area-slide img{
     min-width: 100%;
-    max-width: 100%;
+}
+
+.btn-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 242px;
+    position: absolute;
+    top: 0;
+    font-size: 2.5em;
+    color: black;
+    text-shadow: -20px -20px 0 red;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.btn-slide--destacado{
+    border: 2px solid rgb(168, 168, 207);
+    outline: 2px solid white;
+    outline-offset: 1px;
+}
+
+.btn-slide:focus{
+    border: 2px solid white;
+}
+
+.btn-slide--anterior{
+    left: 0;
+}
+
+.btn-slide--proximo{
+    right: 0;
 }
 
 .destaques{
