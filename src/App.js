@@ -1,10 +1,11 @@
-import DisneyPlusCards from './components/disneyplus_cards';
-import SlideAmazon from './components/slide_amazon';
+//import DisneyPlusCards from './components/disneyplus_cards';
+//import SlideAmazon from './components/slide_amazon';
+import YoutubeHome from './components/YoutubeHome';
 
 function App() {
   return (
     <div className="App">
-      <SlideAmazon/>
+      <YoutubeHome/>
     </div>
   );
 }

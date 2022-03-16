@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*Navegaçãodo header*/
+.header--navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--btn-lateral{
+    cursor: pointer;
+}
+
+.header--logo{
+    width: 90px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header--logo img{
+    width: 100%;
+}
+
+/*Busca do header*/
+.header--busca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-width: 700px;
+}
+
+.header--containerbusca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.header--campobusca{
+    border: none;
+    outline: none;
+    width: 92%;
+    border: 1px solid rgb(204, 204, 204);
+    height: 41px;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+.header--campobusca:focus{
+    border: 1px solid rgb(63, 63, 236);
+}
+
+.header--btnbusca{
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(248, 248, 248);
+    width: 8%;
+    
+    padding: 8px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.header--buscavoz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    box-sizing: content-box;
+    background-color: rgb(249, 249, 249);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/*Opções do header*/
+.header--opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--grid, .header--notificacoes, .header--fotoperfil{
+    margin-left: 20px;
+}
+
+.header--fotoperfil{
+    width: 30px;
+}
+
+.header--fotoperfil img{
+    width: 100%;
+    border-radius: 50%;
+}

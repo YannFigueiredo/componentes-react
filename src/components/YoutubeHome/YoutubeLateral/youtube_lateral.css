@@ -1,0 +1,20 @@
+.lateral{
+    width: 20%;
+    max-width: 400px;
+}
+
+.lateral--menu li, .lateral--btn-vermais{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.lateral--menu li:hover, .lateral--btn-vermais:hover{
+    background-color: rgb(242, 242, 242);
+}
+
+.lateral--menu li span, .lateral--btn-vermais span{
+    margin-left: 8px;
+}
